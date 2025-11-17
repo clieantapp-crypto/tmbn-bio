@@ -15,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ar" dir='rtl'>
-       <head>
+      <head>
         {/* Google Tag Manager */}
         <Script
           async
