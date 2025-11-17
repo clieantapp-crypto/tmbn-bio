@@ -57,15 +57,18 @@ export default function HomePage() {
           {/* Logo Section */}
           <div className="flex flex-col items-center text-center mb-10">
             <div className="w-32 h-32 mb-6 rounded-full bg-white/10 backdrop-blur-md border border-blue-300/20 shadow-[0_0_30px_rgba(0,140,255,0.3)] flex items-center justify-center">
-              <div className="w-20 h-20">
-                <img src="/quality.png" alt="logo" className="drop-shadow-xl" />
-              </div>
+                <img src="/Auto-Insurance-Hail-Damage-Featured-Image-803x420.webp" alt="logo" className="drop-shadow-xl  rounded-full " />
             </div>
 
-            <h1 className="text-4xl font-bold drop-shadow-lg tracking-wide">
+            <h1 className=" flex text-4xl font-bold drop-shadow-lg tracking-wide">
+             
               خدمات التأمين والعروض
             </h1>
-            <p className="text-blue-200 mt-2 text-lg">منصة ذكية لخدمات التأمين</p>
+            <p className="flex text-blue-200 mt-2 text-lg">
+              منصة ذكية لخدمات التأمين
+              <img src='/ver.png' alt='logo' width={30}/></p>
+             
+
           </div>
 
           {/* Links Section */}
