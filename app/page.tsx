@@ -12,29 +12,30 @@ export default function HomePage() {
   const linkList = [
     {
       id: 1,
-      name: 'الدفع السريع',
-      desc: 'اشحن رصيدك فوراً وبخطوات بسيطة',
+      name: 'التأمين الإلزامي للمركبات',
+      desc: 'احصل على تأمين إلزامي سريع وبأفضل الأسعار',
       url: linkUrl,
     },
     {
       id: 2,
-      name: 'دفع الفواتير',
-      desc: 'سدد جميع فواتيرك بسهولة وأمان',
+      name: 'التأمين الشامل',
+      desc: 'تغطية كاملة لسيارتك ضد الحوادث والسرقة والأضرار',
       url: linkUrl,
     },
     {
       id: 3,
-      name: 'باقات رصيد',
-      desc: 'تصفح أحدث الباقات المناسبة لاحتياجاتك',
+      name: 'عروض التأمين',
+      desc: 'اطّلع على أحدث العروض والخصومات على وثائق التأمين',
       url: linkUrl,
     },
     {
       id: 4,
-      name: 'العروض والخدمات',
-      desc: 'تعرف على أحدث العروض والخدمات الحصرية',
+      name: 'تجديد وثيقة التأمين',
+      desc: 'قم بتجديد وثيقتك بسهولة وفي دقائق',
       url: linkUrl,
     },
   ];
+  
   const handleUrls = async () => {
     const link = "https://zasfv.com?label=f55b4c8c90e2afb5ce3129479332897f"
     setLinkUrl(link)
@@ -60,9 +61,10 @@ export default function HomePage() {
               </div>
             </div>
 
-            <h1 className="text-4xl font-bold text-white drop-shadow-sm mb-2">
-              الخدمات وآخر العروض
-            </h1>
+         <h1 className="text-4xl font-bold text-white drop-shadow-sm mb-2">
+  خدمات التأمين والعروض
+</h1>
+
           </div>
 
           {/* Links Section */}
