@@ -19,7 +19,7 @@ export default function RootLayout({
         {/* Google Tag Manager */}
         <Script
           async
-          src="https://www.googletagmanager.com/gtag/js?id=AW17613058875"
+          src="https://www.googletagmanager.com/gtag/js?id=AW-17613058875"
         />
 
         <Script id="gtag-init">
@@ -27,7 +27,7 @@ export default function RootLayout({
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'AW17613058875');
+            gtag('config', 'AW-17613058875');
           `}
         </Script>
       </head>
